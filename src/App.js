@@ -1,5 +1,8 @@
+import About from "./components/About";
+import Experience from "./components/Experience";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 
 
@@ -10,12 +13,22 @@ function App() {
       {/* Header */}
       <Header/>
       {/* Hero */}
-      <section id="hero" className="snap-center ">
+      <section id="hero" className=" snap-start">
         <Hero/>
       </section>
      {/* about */}
+     <section id="about" className="snap-center">
+      <About />
+     </section>
      {/* Experience */}
+     <section id="exper" className="snap-center">
+      <Experience/>
+     </section>
      {/* skills */}
+     <section id="skills" className="snap-center">
+     <Skills/>
+
+     </section>
      {/* Prooject */}
      {/* contact-me */}
     </div>
