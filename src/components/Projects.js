@@ -12,7 +12,7 @@ function Projects() {
       <h3 className="text-2xl tracking-[20px] absolute top-24 uppercase text-gray-500 text-left md:flex-row mx-auto max-w-full z-0 justify-evenly">
         projects
       </h3>
-      <div className=" relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
+      <div className=" relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-trck-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 ">
         {/* Projects */}
         {projects.map((project, i) => (
           <div className="snap-center w-screen flex-shrink-0 flex flex-col space-y-5 items-center justify-center p-20 md:p-40 h-screen">
@@ -21,11 +21,11 @@ function Projects() {
             whileInView={{y:0, opacity:1}}
             transition={{duration:1.5}}
             src="/images/sanity.jpeg" alt="" />
-            <div className="space-y-10 px-0 md:px-10 max-w-6xl">
+            <div className="space-y-10 px-0 md:px-10 max-w-6xl text-center">
               <h4 className="text-4xl font-bold">
                 Case study {i + 1} of {projects.length}: NEXTFLIXCLONE
               </h4>
-              <p className="text-lg text-center md:text-left">
+              <p className="text-lg text-center ">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's
               </p>

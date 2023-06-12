@@ -6,7 +6,7 @@ function Experience() {
     <div     className='flex flex-col relative h-screen justify-evenly items-center text-center md:text-left md:flex-row mx-auto  max-w-7xl px-10 '>
     
         <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-400 text-2xl'>Experience</h3>
-        <div className='absolute top-28 flex w-full space-x-5 overflow-x-scroll  snap-x snap-mandatory'>
+        <div className='absolute top-28 flex w-full space-x-5 overflow-x-scroll  snap-x snap-mandatory scrollbar scrollbar-trck-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 '>
             {/* Experience cards */}
             <ExperienceCard/>
             <ExperienceCard/>

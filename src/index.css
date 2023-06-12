@@ -5,7 +5,12 @@
 @layer components {
   .herobtn {
     @apply px-6 py-2 border border-[#242424] rounded-full text-xs uppercase tracking-widest text-gray-500 transition-all hover:border-[#F7AB8A]
-hover:text-[#F7AB8A]  }
+hover:text-[#F7AB8A];
+  }
+
+  .textInput {
+    @apply outline-none bg-slate-400/20 border-[#242424] rounded-sm border-b px-6 py-4 text-gray-500 placeholder-gray-500 transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/40 hover:border-[#F7AB0A]/40;
+  }
 }
 /* body {
   margin: 0;
